@@ -1,4 +1,4 @@
-# DeepSafe Sydney
+# DeepSafe Australia
 
 DeepSafe Sydney is a research prototype for detecting deep fake videos and harmful speech with a focus on Australian teens. The project combines a vision model, a text classifier and a small logistic regression layer to output a risk score for short clips.
 
