@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "deepsafe_sydney"
+version = "0.1.0"
+description = "Multimodal deep fake harm speech detector for Australian teens"
+authors = ["Akil"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "2.*"
+torchvision = "*"
+transformers = "4.*"
+datasets = "*"
+opencv-python = "*"
+ffmpeg-python = "*"
+faceswap-python = "*"
+scikit-learn = "*"
+lime = "*"
+torchcam = "*"
+streamlit = "*"
+streamlit-player = "*"
+moviepy = "*"
+boto3 = "*"
+fastapi = "*"
+uvicorn = "*"
+snscrape = "*"
+reportlab = "*"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+start-api = "api.main:main"
