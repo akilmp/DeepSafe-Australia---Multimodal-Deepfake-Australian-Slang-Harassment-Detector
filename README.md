@@ -1,6 +1,6 @@
-# DeepSafe Australia
+# DeepSafe Australia: Deepfake & Australian Slang detector to find targetted harrasment 
 
-DeepSafe Sydney is a research prototype for detecting deep fake videos and harmful speech with a focus on Australian teens. The project combines a vision model, a text classifier and a small logistic regression layer to output a risk score for short clips.
+DeepSafe Australia  is a research prototype combining vision and language models to flag both manipulated video content and harmful speech, especially slang common among Australian teens, by assigning a unified “risk score” to short video clips. It fine‑tunes EfficientNetV2‑S on real vs. fake videos and DistilBERT on a curated Australian‑slang corpus, then fuses their outputs via a lightweight logistic regression layer. This multimodal setup not only detects deepfake manipulations but also understands regional slang to catch harassment that standard models might miss, helping platforms preemptively identify and mitigate targeted abuse
 
 Created and maintained by **Akil**.
 
